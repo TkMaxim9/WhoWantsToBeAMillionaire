@@ -10,7 +10,7 @@ const port = 3000;
 //const sequelize = new Sequelize('sqlite::memory:')
 const sequelize = new Sequelize({
   dialect: 'sqlite',
-  storage: 'C:\\\\Users\\\\Максим Сочи\\\\WebstormProjects\\\\millioneer\\\\millioneer.db'
+  storage: '\\millionaire.db'
 });
 
 const User = sequelize.define('User', {
