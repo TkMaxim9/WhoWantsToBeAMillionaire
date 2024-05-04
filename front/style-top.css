@@ -1,0 +1,46 @@
+html {
+    font-family: "helvetica neue", helvetica, arial, sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-family: "Rock Salt", cursive;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 29%, rgba(9,9,121,1) 47%, rgba(124,38,154,1) 81%);
+}
+
+table{
+    table-layout: fixed;
+}
+
+td{
+    width: 15vw;
+    text-align: center;
+    padding: 2px;
+    font-size: small;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 6vh;
+}
+
+button{
+    width: 15vw;
+    border-radius: 10px;
+    margin: 3vw;
+}
+
+.header_td{
+    font-size: 20px;
+    font-weight: bold;
+}

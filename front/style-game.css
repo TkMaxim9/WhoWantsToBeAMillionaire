@@ -1,0 +1,199 @@
+body{
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 29%, rgba(9,9,121,1) 47%, rgba(124,38,154,1) 81%);
+}
+
+button{
+    font-family: "Montserrat", sans-serif;
+}
+
+.start_block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20vh;
+}
+
+select{
+    border-radius: 10px;
+}
+
+.start_text{
+    color: white;
+    margin-bottom: 5px;
+}
+
+.user_name{
+    width: 15vw;
+    border-radius: 10px;
+    padding: 2px;
+}
+
+.start_block_OK{
+    margin-top: 30px;
+    width: 15vw;
+    border-radius: 10px;
+    padding: 1px;
+
+}
+
+.main_block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo{
+    width: 28vw;
+    height: auto;
+}
+
+.question_block{
+    margin-bottom: 3vh;
+    font-size: 20px;
+    color: white;
+}
+
+.answers{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.answer-button{
+    padding: 5px;
+    margin: 3px;
+    font-size: 15px;
+    background-color: white;
+    border-radius: 4px;
+}
+
+.answer-button:hover{
+    background-color: darkgrey;
+}
+
+.prizes_block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.prize{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15vw;
+    margin: 2px;
+    color: white;
+    border-radius: 3px;
+}
+
+.current_prize{
+    background-color: white;
+    color: darkblue;
+    border-radius: 3px;
+}
+
+.inactive{
+    display: none;
+}
+
+.game_end_block{
+    width: 30vw;
+    padding: 5px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20vh;
+    background-color: white;
+    border: solid 2px black;
+}
+
+.warning{
+    color: red;
+}
+
+.warning_inp{
+    border: solid 2px red;
+}
+
+.to_main{
+    margin-top: 10px;
+    width: 15vw;
+    border-radius: 10px;
+    padding: 1px;
+}
+
+.question_num{
+    color: white;
+    margin-top: 3vh;
+}
+
+.incorrect{
+    background-color: red;
+}
+
+.chosen{
+    border: solid 2px blue;
+}
+
+.hall_help_block{
+    background-color: white;
+    border-radius: 5px;
+}
+
+.help{
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.OK_stat_button{
+    margin: 5px;
+    width: 5vw;
+    border-radius: 10px;
+}
+
+.call_block{
+    margin: 20vh;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.call_p{
+    text-align: center;
+}
+
+button:hover {
+    animation: button-animation 300ms forwards ease-in-out;
+}
+
+input{
+    transition: transform 300ms ease-in-out;
+}
+
+input:active {
+    transform: scale(1.1);
+}
+
+@keyframes button-animation {
+    100%{
+        transform: scale(1.1);
+    }
+}
+@keyframes input-animation {
+    100%{
+
+    }
+}

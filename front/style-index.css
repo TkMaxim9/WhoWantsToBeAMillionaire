@@ -1,0 +1,42 @@
+html{
+
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 29%, rgba(9,9,121,1) 47%, rgba(124,38,154,1) 81%);
+}
+
+button{
+    font-family: "Montserrat", sans-serif;
+    width: 15vw;
+    margin: 5px;
+    animation-duration: 900ms;
+}
+
+button:hover {
+    /*animation-name: button-animation;
+    animation-duration: 300ms;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;*/
+    animation: button-animation 300ms ease-in-out forwards;
+}
+
+button:nth-of-type(1){
+    margin-top: 10vh;
+}
+
+.logo{
+    width: 35vw;
+    height: auto;
+}
+@keyframes button-animation {
+    100%{
+        transform: scale(1.1);
+    }
+}
